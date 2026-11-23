@@ -1,4 +1,4 @@
-# Multimodal Cooking Assistant — Smart Kitchen EDGE-AI (YOLOv5s)
+# Multimodal Cooking Assistant (YOLOv5s)
 
 Standalone 30-class kitchen object detection pipeline (`YOLOv5s` -> static `opset 12` ONNX for Hailo-8) with a live desktop viewer and Flask phone/tablet web dashboard.
 
