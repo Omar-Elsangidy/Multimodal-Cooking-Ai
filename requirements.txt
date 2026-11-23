@@ -1,0 +1,11 @@
+# Core YOLO ONNX inference & video/frame scripts (scripts/)
+numpy>=1.24.0
+opencv-python>=4.8.0
+onnxruntime>=1.16.0
+PyYAML>=6.0
+
+# Full prototype pipeline (prototype/: TAS MS-TCN, YOLO-World, Flask dashboard)
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.3.0
+Flask>=3.0.0

@@ -1,0 +1,39 @@
+# Multimodal Cooking Assistant Object Detection Class Schema (YOLOv5s -> Hailo-8 ONNX -> MS-TCN / DAG)
+# 30 EPIC-KITCHENS-aligned classes: rich enough for recipe/DAG reasoning while keeping
+# per-class accuracy and INT8 Hailo-8 inference fast and reliable.
+
+path: /content/yolo_dataset  # Dataset root used during Colab training
+train: images/train
+val: images/val
+
+names:
+  0: hand
+  1: pan
+  2: pot
+  3: lid
+  4: hob
+  5: tap
+  6: sink
+  7: knife
+  8: spatula
+  9: spoon
+  10: fork
+  11: cutting_board
+  12: bowl
+  13: plate
+  14: cup
+  15: bottle
+  16: jar
+  17: appliance
+  18: onion
+  19: tomato
+  20: potato
+  21: carrot
+  22: garlic
+  23: pepper
+  24: egg
+  25: cheese
+  26: bread
+  27: meat
+  28: vegetable
+  29: food

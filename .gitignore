@@ -1,0 +1,32 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+
+# Datasets, training runs & experiment logs
+datasets/
+runs/
+wandb/
+
+# Local video files & extracted frames/features
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.avi
+*.mkv
+exports/*.npy
+
+# Pretrained base weights auto-downloaded by Ultralytics
+models/yolov8s-worldv2.pt
+
+# Environment secrets & OS files
+.env
+.DS_Store
+Thumbs.db
