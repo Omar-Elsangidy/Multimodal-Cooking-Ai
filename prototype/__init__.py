@@ -1,1 +1,1 @@
-"""Unified First Prototype package for the Multimodal Cooking Assistant."""
+"""Standalone YOLO vision & mobile web dashboard package for Multimodal Cooking Assistant."""
